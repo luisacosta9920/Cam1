@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+margin:0px;
+height:100%;
+font-family: 'myriadprolight', Arial, sans-serif;
+text-align:justify;
+color:#4B2919;
+background-color:#f9f9fa
+}
+
+@font-face {
+    font-family: 'museo700';
+    src: url('fuentes/Museo700-Regular-webfont.woff2') format('woff2'),
+         url('fuentes/Museo700-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo300';
+    src: url('fuentes/Museo300-Regular-webfont.woff2') format('woff2'),
+         url('fuentes/Museo300-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'myriadwebpro';
+    src: url('fuentes/myriadwebpro.woff') format('woff');
+    src: url('fuentes/myriadwebpro.eot'),
+		 url('fuentes/myriadwebpro.eot?#iefix') format('embedded-opentype'),     
+         url('fuentes/myriadwebpro.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'myriadprolight';
+    src: url('fuentes/myriadpro-light.otf');
+	font-weight:normal
+}
+
+h2{ font-family: 'myriadweb', Arial, sans-serif; font-weight:bold; font-size:23px; border-bottom:solid thin #4B2919; padding-bottom: 10px; text-align:left}
+.blanco{border-bottom:solid thin #fff; }
+a{text-decoration:none}
+
+.aviso{ font-weight:bold; text-align:center; margin:auto; font-size:1.2em}
+
+table, th, td {
+    padding: 0px; border-collapse: collapse;
+}
+
+hr{ margin: 10px 0}
+
+.cuerpo{ margin:auto; min-height:300px;}
+.contenido{
+	max-width:1300px;
+	margin:10px auto; padding:0 10px 80px 10px;
+	font-size:23px; text-align:center
+}
+.mitadder{
+	padding-left:10px;
+}
+.mitadizq{
+	padding-right:10px;
+}
+.mitadcentro{
+	padding:0 5px
+}
+.fondo{color:#fff; background-size:cover; background-position:bottom; margin-bottom:60px}
+.logo{width:130px; margin:10px auto auto 80px; max-width: 90%;}
+.icohead{ width:16px; margin: 0 0 0 15px;}
+.btnprereg {font-size:22px; }
+.btnprereg span{border-right:#000 solid thin; border-left:#000 solid thin}
+
+.imgmax{
+	max-width:100%; margin:auto
+}
+input[type=text], input[type=email], textarea, select{border:none!important; -webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px; width:100%;display:block;padding:6px; box-shadow:#333 1px 1px 6px}
+
+.cuadroshome .subtit{
+	font-family: 'myriadprolight'; font-size:16px; margin: 0 5px 0 5px; line-height:1;
+}
+
+.cuadroshome .cuadronoticias strong{font-size: 25px;}
+.cuadroshome .cuadronoticias span{font-size: 20px;}
+.cuadroshome div:hover{ cursor:pointer}
+.cuadronoticias{font-family: 'myriadprolight'}
+
+h3{font-family: 'myriadwebpro'; font-weight:bold; font-size:45px; line-height:1.2em; margin-bottom:1em;}
+
+h4{font-family: 'myriadwebpro'; font-weight:bold; font-size:38px; line-height:1.2em; margin-bottom:1em}
+.cuadroshome h3{
+	font-size:30px; margin-bottom:-5px; margin-top:20px
+}
+.cuadroshome .w3-half{
+	text-align:center; background-color:#f9f9fa; min-height:300px
+}
+.cuadroshome{
+	margin:12px auto; display: -webkit-flex; /* Safari */
+		display: flex;
+}
+.cuadroshome .mizq{
+	 border-right:solid #fff 6px
+}
+.cuadroshome .mder{
+	 border-left:solid #fff 6px
+}
+footer span{ font-size:30px; font-weight:bold; font-family: 'myriadwebpro';}
+footer{background-color:#f1f0f0; padding:20px}
+footer hr{ width:100%; border-top: 1px solid #4b2919;
+}
+footer .cuarto{
+	width:49.99999%; float:left
+}
+footer .redes img{
+	 height:34px; margin:auto 6px
+}
+strong{font-family: 'myriadwebpro';}
+.contador{
+	font-family: 'myriadwebpro', Arial, sans-serif; text-align:center; line-height:1; margin: 5px auto auto 20px; float:right; font-weight:bold
+}
+.contador td{
+	width:39px
+}
+.activo{font-family:'myriadwebpro'; font-weight:bold}
+#menu{margin-top:0px; min-height:42px; font-family: 'myriadprolight';background-color:#4b2919/*rgba(75,41,25,0.8)*/; font-weight:normal; z-index:99;color: #fff }
+
+#menu .botones div{
+	width:20%; float:left; text-align:center; padding: 11px 16px 8px 16px; height:42px
+}
+#menu .botones div a:hover{
+	font-family:'myriadwebpro'; font-weight:bold
+}
+#menu li a:hover{ background-color:#4B2919; color:#a3a3a3}
+#menu .botones{ width:850px; max-width:95%; margin:auto; color:#fff}
+.mnufooter{font-size:19px;}
+.fechalugar{font-size:23px;margin-bottom: .8em; margin-top: .2em;}
+
+.noticia h1{font-family: 'myriadwebpro'; font-weight:bold; font-size:58px; margin-bottom:10px;}
+.noticia{width:700px; margin:auto; font-size:35px; max-width:100%; text-align: justify;}
+.noticia span{font-size:28px}
+.noticia img{margin:30px auto 15px}
+
+h1{font-size:30px; text-align:center; font-family: 'museo700'; margin:0}
+.tbltit{height:55px; margin:auto}
+.albumesgal td{padding: 0 10px;}
+.albumesgal strong{font-size:38px}
+@media only screen and (min-width:646px){
+	.mnufooter div{margin:auto; width:50%}
+	footer .redes{ text-align:right}
+	footer .organiza{text-align:left}
+	.cflex{display: -webkit-flex; /* Safari */
+		display: flex;}
+	.margensupg{padding-top:4em}
+	.cuadroshome .cuadronoticias{ padding-top: 10px;}
+	
+}
+.noticias img{border-radius: 16px; width:203px}
+.noticias .w3-row{margin-bottom:2em}
+.galmini{
+	margin:3%; width:auto; width:19%
+}
+.galmini img{
+	width:100%; border-radius: 8px;	
+}
+.fondoperfil{background-image:url(assets/imgperfil.jpg); background-size:900px; background-repeat:no-repeat}
+
+@media only screen and (max-width:600px){
+	.mitadder{
+		margin-top:1.5em; padding-left:0
+	}
+	.mitadizq{
+		padding-right:0
+	}
+	.mitadcentro{
+		margin-top:1.5em; padding-right:0; padding-left:0}
+	.cuadroshome .mizq, .cuadroshome .mder{
+	 	border:none
+	 }
+	 .cuadroshome{
+		 display:block!important
+	 }
+	 .cuadroshome .mder{
+		 margin-top:12px
+	 }
+	 .fondoperfil{ background-size:contain}
+	 .centrar-small{text-align:center!important}
+	 .g-recaptcha div {
+		margin:auto;
+	 }
+	 
+}
+
+@media only screen and (min-width:769px) and (max-width:1250px){
+	.fondoperfil{ background-size:90%}
+	h1{font-size:18px;}
+	.fechalugar {font-size:14px;}
+	.logo { width: 100px; margin: 10px auto auto 40px;}
+}
+.albumesgal span{font-size:20px; vertical-align:super}
+@media only screen and (min-width:769px){
+.hotel{font-size: 20px;}
+}
+@media only screen and (max-width:768px){
+	.albumesgal strong{font-size:18px}
+	.albumesgal span{font-size:10px}
+	.albumesgal td{padding: 17px 8px}
+	h1{font-size:12px;}
+	.tbltit{margin-top:15px; height: 25px; margin-bottom: 6px;}
+	
+	.noticia h1{font-size:38px; margin-bottom:0}
+	.noticia{ font-size:22px}
+	.noticia span{font-size:18px}
+
+	footer hr{ max-width:80%; margin-left:0; text-align:left}
+	footer span{ font-size:24px; font-family: 'myriadwebpro';}
+	.mnufooter{font-size:14px;}
+	.logomovil{ width:45px; float:left; margin-bottom:-70px; margin-left:5px; margin-top:15px}
+	.icohead{ width:6px; margin:0 5px 0 10px}
+	.fechalugar{font-size:9px;}
+	.btnprereg {font-size:14px;}	 
+	h3{font-size:24px;}
+	h4{font-size:28px;}
+	.noticias img{border-radius: 4px}
+	.galmini{
+		margin:2%; width:auto; width:21%
+	}
+	.galmini img{border-radius: 4px}
+	.contenido{font-size:15px;} 
+	
+	.mnumovcompleto{position: absolute;
+			width: 100%;
+			height: 100%; background-color: rgba(75,41,25,0.9)!important;}
+	.cuadroshome .cuadronoticias strong{font-size: 16px;}
+	.cuadroshome .cuadronoticias span{font-size: 14px;}
+	.cuerpo{
+		margin:0 10px
+	}
+	.contenido{
+		margin:10px 10px
+	}
+	/*.cuadroshome .subtit{font-size:13px; line-height:1;}*/
+	.logo { width: 100px; margin: 10px auto auto 40px;}
+}
+.btncafe{background:linear-gradient(#87756d, #4e2e1e); -webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;  }
+.hotel{border:solid black 2px; -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 10px; color:#000; background-color:rgba(255,255,255,0.5); text-align:center;  padding:8px}
+.hotel table{text-align:left;  table-layout: fixed; width: 100%;}
+.hotel td{vertical-align: top; word-wrap:break-word;}
+.hotel img{width:20px; vertical-align: 10%; margin-right:10px}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 42px;
+}
+
+.submenu{
+	height:82px; background-color:#6f5347; text-align:center; font-size:13px; color:#fff
+}
+.submenu .activo{
+	color:#f9ebc2; font-weight:normal; font-family:'myriadprolight'
+}
+
+.submenu div div{width: 33.33333%; float:left}
+.submenu2 div div{width: 25%!important}
+
+.submenu .w3-container{
+	max-width:444px; margin:auto
+}
+
+.submenu img{
+	width:70px	
+}
+.btnbarras{border-right:#fff solid thin; border-left:#fff solid thin}
+
+.oscurese{position: fixed;
+top: 0;
+width: 100%;
+height: 100%;}
+
+.organizadores div{
+	text-align:center
+}
+.organizadores img{
+	width:270px	
+}
